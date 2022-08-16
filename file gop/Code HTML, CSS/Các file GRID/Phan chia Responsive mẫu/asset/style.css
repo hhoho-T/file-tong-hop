@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col {
+    text-align: center;
+    background-clip: content-box;
+    
+    margin-bottom: 8px;
+  }
+.item {
+    margin-top: 16px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    min-height: 180px;
+    line-height: 180px;
+    background-color: orange;
+}
+.main {
+    display: flex;
+
+}
+.sidebar { 
+    width: 300px;
+    background-color: aqua;
+}
+.content {
+    /* nó sẽ tự động chiếm hết phần còn lại */
+    flex: 1;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-On-Tablet {
+        display: none;
+     }
+     .hide-On-Mobile {
+        display: none;
+     }
+}
+@media (max-width: 739px) {
+
+     .hide-On-Mobile {
+        display: none;
+     }
+}

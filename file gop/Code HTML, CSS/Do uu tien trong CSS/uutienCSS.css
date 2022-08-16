@@ -1,0 +1,7 @@
+* {
+    color: aqua !important; 
+    /* nếu có !important thì sẽ luôn đc ưu tiên dùng trước  */
+}
+li{
+    color: blanchedalmond;
+}

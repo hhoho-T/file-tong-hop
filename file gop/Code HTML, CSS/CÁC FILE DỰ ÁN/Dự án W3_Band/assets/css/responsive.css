@@ -1,0 +1,92 @@
+/* PC nếu cần thuộc tính chỉ hoạt động trên PC thì viết xg dưới*/
+@media (min-width: 64em) {
+
+}
+
+/* Tablet & Mobile */
+/* PHẢI CHUYỂN PX QUA EM THÌ TRÊN NHIỀU TRÌNH DUYỆT KO BỊ LỖI */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+        
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .contact-sumbit-btn1 {
+        font-size: 18px;
+    }
+   
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+        font-size: 23px;
+    }
+}
+/* Tablet nếu cần thuộc tính chỉ hoạt động trên TABLET thì viết xg dưới*/
+/* PHẢI CHUYỂN PX QUA EM THÌ TRÊN NHIỀU TRÌNH DUYỆT KO BỊ LỖI */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #footer .socials-list {
+        font-size: 48px;
+    }
+}
+/* MOBILE nếu cần thuộc tính chỉ hoạt động trên MOBILE thì viết xg dưới*/
+/* PHẢI CHUYỂN PX QUA EM THÌ TRÊN NHIỀU TRÌNH DUYỆT KO BỊ LỖI */
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    /* cách để cho 3 ảnh nằm dọc */
+    #nav {
+        display: block;
+    }
+    #nav >li {
+        display: block;
+    } 
+    #nav >li:first-child {
+        display: inline-block;
+    }
+    /* #nav li a {
+        padding: 1px 24px;
+    } */
+    #nav .subnav {
+        /* trả về giá trị mặc định cho nó */
+        position: initial;
+        background-color: black;
+    }
+    #nav .subnav a {
+        color: aliceblue;
+        padding: 5px 41px;
+    }
+    #header {
+        /* cần bên mobile để ẩn */
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+    
+    
+  
+}

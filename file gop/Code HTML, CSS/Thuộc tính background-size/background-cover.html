@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thuộc tính background-size</title>
+    <style>
+        html, body{
+            margin: 0;
+        }
+        .heaf{
+            width: 100%;
+            height: 100vh;
+
+            /* background-image: url(https://media.travelmag.vn/files/thuannguyen/2020/04/25/cach-chup-anh-dep-tai-da-lat-1-2306.jpeg);
+            background-repeat: no-repeat; */
+
+            /* dùng contain để chỉnh kích thước cho vừa màn hình và để lại khoảng trắng*/
+            /* dùng cover để chỉnh kích thước cho vừa màn hình và để không lại khoảng trắng*/
+            /* background-size: cover; */
+
+            /* THUỘC TÍNH background ORIGIN */
+            /* border-box dùng để làm cho ảnh tràn ra boder */
+            /* content-box dung để cách 1 khoảng với border */
+            /* background-origin: padding-box; */
+
+            /* THUỘC TÍNH BACKGROUND-POSITION */
+            /* background-size: 200px; */
+            /* THUỘC TÍNH BACKGROUND-POSITION dùng để điều chỉnh ảnh theo hướng trái phải trên dưới mà mình mong muốn */
+            /* căn giữa thì đung center hoặc dùng 50px */
+            /* background-position: 350px; */
+            /* background-position: top 20px right 20px; */
+            /* background-position: 350px 100px; */
+
+            /* Cú pháp "shorthand" cho background */
+            /* background-position: center; căn giữa
+            background-size: contain; */
+
+            /* CÁcH VIẾT CHUNG TẤT CẢ THUỘC TÍNH VÀO BACKGROUND để cho hình in vào giữa */
+            background: url(https://media.travelmag.vn/files/thuannguyen/2020/04/25/cach-chup-anh-dep-tai-da-lat-1-2306.jpeg) no-repeat center / contain;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="heaf"> box hes</div>
+    
+</body>
+</html>

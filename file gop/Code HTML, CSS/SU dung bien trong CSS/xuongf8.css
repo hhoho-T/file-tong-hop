@@ -1,0 +1,17 @@
+:root{
+    --primary: green;
+}
+.p1 a{
+    color: var(--primary);
+    font-weight: 600;
+}
+.list strong{
+    color: var(--primary);
+    font-weight: 600;
+
+}
+.p2 a{
+    color: var(--primary);
+    font-weight: 600;
+
+}

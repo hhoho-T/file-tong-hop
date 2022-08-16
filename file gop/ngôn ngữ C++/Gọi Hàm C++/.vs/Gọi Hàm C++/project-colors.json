@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9785fccb-cd7b-49b6-92eb-0c22e746d004": {
+      "ProjectGuid": "9785fccb-cd7b-49b6-92eb-0c22e746d004",
+      "DisplayName": "Gọi Hàm C++",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tim ne</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div>
+        <script>
+            document.addEventListener('mousemove', function(){
+            var body = document.querySelector('body')
+            var heart = document.createElement('span')
+            heart.style.left = e.offsetX + 'px'
+            heart.style.top = e.offsetY + 'px'
+            var size  = Math.random() * 150
+            heart.style.height = size + 'px';
+            heart.style.width = size + 'px';
+            setTimeout(function(){
+                heart.remove()
+            }, 2000)
+            body.appendChild(heart)
+            
+        })
+
+        </script>
+       </div>
+       <div>
+           <p>áhdadj</p>
+       </div>
+    </body>
+    </html>

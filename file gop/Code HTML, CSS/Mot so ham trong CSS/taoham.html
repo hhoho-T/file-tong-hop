@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm trong CSS</title>
+    <link rel="stylesheet" href="thanvar.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        .box{
+            width: calc(100% - 50%);
+            height: 120px;
+            background-color: rgb(194, 56, 56);
+        }
+        .box::after{
+            content: attr(test);
+        }
+        a::after{
+            content: attr(href);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" title="Xin Chào Các Bạn">
+    <!-- SỬ DỤNG THẺ rgba để chèn thêm màu vào background-color -->
+        <div class="box2">Box2</div>
+    </div>
+        <a href="https://fullstack.edu.vn/"></a>
+        <h1>CSS fonctions</h1>
+        <ul>
+            <li>Var</li>
+            <li>linear</li>
+            <li>rgba</li>
+            <li>rgb</li>
+            <!-- calc dùng để tính toán cộng trừ nhân chia -->
+            <li>calc</li>
+            <!-- attr dùng để thay đổi các thông số hơn bằng cách tạo lớp giả -->
+            <li>attr</li>
+        </ul>
+        <h1 id="heading">Thực hành sử dụng hàm var() trong CSS</h1>
+        <p class="master">Hàm var() các bạn đã được làm quen từ bài đặt biến trong CSS đó ^^</p>
+        <!-- sử dụng hàm Var() -->
+        
+    </body>
+</html>

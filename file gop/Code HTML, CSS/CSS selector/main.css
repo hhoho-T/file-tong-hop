@@ -1,0 +1,58 @@
+#frist-line {
+    color: aqua;
+    font-size: 60px;
+}
+#kk {
+    color: black;
+    font-size: 100px;
+}
+.hh {
+    color: green;
+    font-size: 120px;
+}
+/* Dấu * chọn toàn bộ các thẻ và kiểu font-style: italic; là chữ in nghiêng */
+* {
+    font-style: italic;
+}
+p {
+    /* dùng để gạch chân các chữ trong thẻ p */
+    text-decoration: underline; 
+}
+.cl1 {
+    color: red;
+    font-size: 90px;
+}
+.cl2 {
+    color: green;
+    font-size: 90px;
+}
+.cl3 {
+    color: pink;
+    font-size: 90px;
+}
+.cl4 {
+    color: blue;
+    font-size: 90px;
+}
+.cl6 {
+
+}
+.cl7{
+
+}
+.td8 {
+    color: red;
+    font-size: 100px;
+}
+.td9 {
+    color: red;
+    font-size: 50px;
+}
+.it {
+    color: red;
+    font-size: 60px;
+}
+.abc .hou1{
+    color: red;
+    font-size: 28px;
+}

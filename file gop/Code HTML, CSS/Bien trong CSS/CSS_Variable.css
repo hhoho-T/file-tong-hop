@@ -1,0 +1,17 @@
+/* kĩ thuật đặt biến trong CSS */
+/* Sử dụng lớp giả root  */
+:root {
+    --tet-col: rgb(42, 3, 3);
+    /* gọi Tên cho màu rồi gắn vào thẻ h1 và đặt như này được gọi là biến toàn cục ở đâu cũng sử dụng đc */
+}
+h1{
+    /* gọi biến cục bộ */
+    --my--colo: green;
+    color: var(--my--colo);
+}
+h2{
+    color: var(--tet-col);
+}
+h3{
+    color: var(--tet-col);
+}

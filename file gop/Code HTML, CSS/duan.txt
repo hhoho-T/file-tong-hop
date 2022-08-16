@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: nav -->
+            <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Band</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">
+                        More
+                        <!-- dùng thẻ i để chứ thẻ icon -->
+                        <!-- thẻ i cx là thẻ viết chữ in nghiêng -->
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: nav -->
+            
+            <!-- Begin: Search button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <!-- End: Search button -->
+
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <div class="text-descripti">The atmosphere in New York is lorem ipsum.</div>
+            </div>            
+        </div>
+
+        <div id="content">
+            <!-- About selection -->
+            <div class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="member-list">
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <!-- tạo thêm classs để dùng gán 3 cái lại 1 cái thẻ cha -->
+                    <div class="clear"></div>
+                </div>
+            </div>  
+            <!-- copy lại để dùng cùng với thẻ bên trên -->
+            <!-- Tour selection -->
+     
+            <div class="Tour-section">
+                <div class="content-section">
+                    <!-- thêm text-white đc tạo bên css để tạo font chữ màu trắng -->
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <!-- phần ticket -->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <!-- place địa điểm -->
+                    <div class="place-list">
+                        <div class="place-item">
+                            <img src="./assets/img/newyork.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- Tạo class mới để gán vào javaspcrit -->
+                                <button class="place-buy-btn js-btn-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="./assets/img/paris.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- Tạo class mới để gán vào javaspcrit -->
+                                <button class="place-buy-btn js-btn-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="./assets/img/sanfran.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- Tạo class mới để gán vào javaspcrit -->
+                                <button class="place-buy-btn js-btn-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <!-- dùng để sửa lỗi cho thẻ float left -->
+                        <div class="clear"></div>
+                    </div>
+                </div>  
+            </div>
+        <!-- hãy chú Ý PHÂN TÍCH CÁI NÀO GIỐNG NHAU THÌ
+        DÙNG LẠI NHỮNG THỨ MÌNH VỪA TẠO -->
+        <!-- CONTACT selection -->
+        <div class="content-section">
+            <h2 class="section-heading">CONTACT</h2>
+            <p class="section-sub-heading">Fan? Drop a note!</p>
+        </div>  
+        </div>
+        <div id="footer">
+            
+        </div>
+    </div>
+    <div class="modal js-madal">
+        
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class="modal-heading-icon ti-bag"></i>
+                Tickets
+            </header>
+            <div class="modal-body">
+                <!-- for dùng để khi nhấn vào chữ 
+                Tickets, $15 per person thì sẽ chuyển xg dòng nhập luôn -->
+            <label for="how-many" class="modal-label">
+                <i class="ti-shopping-cart"></i>
+                Tickets, $15 per person
+            </label>
+            <input id="how-many" type="text" class="modal-input" placeholder="How many?">
+
+            <label for="email" class="modal-label">
+                <i class="ti-user"></i>
+                Send to
+            </label>
+            <input id="email" type="email" class="modal-input" placeholder="Enter email">
+            <!-- chỉ đặt đc 1 lần cho giao diện để hiện ra id -->
+            <button id="buy-tickets">
+                PAY <i class="ti-check"></i>
+            </button>
+        </div>
+            <footer class="modal-footer">
+                Need <a href="" class="modal-help">help?</a></p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        // buyBtns là đc gọi biến document là thằng đại diện 1 trang web nên muốn lấy 1 thứ gì từ trang web
+        // phải đi qua document, còn querySelectorAll() là lấy tất cả thứ gì trùng với tên class truyền vào đây
+        const buyBtns = document.querySelectorAll('.js-btn-ticket')
+
+        // NẾU LÀ ID THÌ DÙNG DẤU '/'  CÒN NẾU LAD CLASS THÌ DÙNG '.'
+        // bây giờ lấy ra 1 biến modal ko lấy tất cả 
+        const modal = document.querySelector('.js-madal')
+
+        // và viết xong phải test xem có lỗi ko dùng modalClose để kt
+        const modalClose = document.querySelector('.js-modal-close')
+
+        // tạo thêm hàm để khi bấm nhập ko bị thoát ra luôn
+        const Container = document.querySelector('.js-modal-container')
+
+
+        // tạo 1 hàm để nhận hiệu lệnh
+        // hàm add là thêm và mở lên
+        function showBuytickets() {
+            // hàm tự có trên trình duyệt click vào sẽ xuất hiện phải theo câu lệnh
+            modal.classList.add('open')
+        }
+
+        // hàm remove là tắt đi
+        function closeBuytickets() {
+            // hàm tự có trên trình duyệt click vào sẽ xuất hiện phải theo câu lệnh
+            modal.classList.remove('open')
+        }
+
+        // tạo ra 1 biến mới và đc cho vào vòng lặp for và nó đc chạy 3 lần 
+        // bởi nó có 3 cái nút lần thứ nhất lấy nút thứ nhất ở buyBtns và lưu vào
+        // buyBtn nó chạy cho đến khi lưu hết nút
+        for(const buyBtn of buyBtns) {
+            // buyBtn.addEventListener là tạo thêm 1 thằng để lắng nghe và biết đc sẽ truyền hiệu lệnh đến nơi cần
+            buyBtn.addEventListener('click', showBuytickets)
+        }
+
+        // closeBuytickets hàm này đc truyền từ hàm tạo bên trên
+        modalClose.addEventListener('click', closeBuytickets)
+        modal.addEventListener('click', closeBuytickets)
+        // Tạo 1 hàm mới bên trrong và ko cần đặt tên cho nó và phải tạo biến
+        Container.addEventListener('click', function (event) {
+            // câu lệnh này nó sẽ ngừng tự động việc đóng tap đang nhập lại
+            event.stopPropagation()
+
+        })
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+Csss
+
+
+
+
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    /* loại bỏ tính toán kích thước */
+    box-sizing: border-box;
+}
+
+html {
+    font-family: helvetica, Arial, sans-serif;
+}
+/* 
+1. Vị trí 
+2. kích thước(width, height)
+3. màu sắc
+4. kiểu dáng(kiểu chữ, hình tròn, vuông..)
+*/
+/* dùng gán 3 cái ảnh lại 1 cái thẻ cha */
+.clear {
+    clear: both;
+}
+/* dùng để khi nào cần font chữ trắng có thể thêm vào  */
+.text-white {
+    color: #fff !important;
+}
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* dùng để nhấn các thẻ xuống */
+    z-index: 1;
+    }
+#nav {
+    display: inline-block;
+}
+#nav .subnav{
+    list-style-type: none;
+}
+#nav {
+
+}
+
+#nav >li{
+    display: inline-block;
+
+}
+
+#nav li {
+    /* giữ trên 1 hàng và giữ khối để đặt kích thước */
+    position: relative;
+
+}
+/* chỉ lấy thẻ con trực tiếp tác động lên thẻ c1 để thay đổi màu */
+#nav >li >a {
+    color: #fff;
+    /* đổi thành chữ viết hoa */
+    text-transform: uppercase;
+} 
+#nav li a {
+    
+    /* bỏ phần gạch chân bên dưới */
+    text-decoration: none;
+    /* dùng để căn giữa trên dưới dùng dúng chiều cao của header */
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+    /* tạo thẻ cha */
+    position: relative;
+}
+
+#nav li:hover .subnav{
+    display: block;
+    min-width: 160px;
+}
+/* dùng hover phía sau #nav li:hover a để tránh gây ra lỗi */
+/* gộp 2 cái thẻ có tác dụng giống nhau lại */
+#nav .subnav li:hover ,
+#nav >li:hover >a {
+    color: #000;
+    background-color: #ccc;
+}
+#nav .subnav {
+    /* dùng display: none; để ẩn đi       */
+    display: none;
+    /* tạo thẻ con của nav li */
+    position: absolute;
+    /* thêm giá trị top và left để ngừa trình duyệt mặc định k bị chuẩn */
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    /* 2 số 0 đầu tiên là điều chỉnh bóng ngả về bên trái hoặc bên phải */
+    /* 10px là độ to của bóng đổ */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+/* #nav .subnav li:hover {
+    color: #000;    
+    background-color: #ccc;
+} */
+#header .search-btn {
+    float: right;
+    padding: 0 16px;
+    /* dùng để thay đổi con trỏ chuột khi di vào */
+    cursor: pointer;
+}
+#header .search-icon {
+    color: #fff;
+    font-size: 10px;
+    line-height: 46px;
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+}
+
+
+#slider {
+    margin-top: 46px ;
+    padding-top: 50%;
+    background: url('/assets/img/chicago.jpg') top center / cover no-repeat;
+    position: relative;
+}
+#slider.text-content {
+    position: absolute;
+    bottom: 46px;
+    color: #fff;
+    /* cách 1 */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    /* cách 2 */
+    /* width: 100%; */
+    /* cách 3 */
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+#slider.text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider.text-descripti {
+    font-size: 15px;
+    margin-top: 25px
+
+}
+
+#content {
+    
+}
+#content .content-section{
+    width: 800px;
+    padding: 64px 0 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#content .section-heading {
+    text-align: center;
+    font-size: 30px;
+    /* dung để nhỏ bớt chữ lại */
+    font-weight: 500;
+    /* dùng để các chữ cái cách nhau 1 khoảng */
+    letter-spacing: 5px;
+    margin-top: 10px;
+
+}
+#content .section-sub-heading {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    /* chữ in nghiêng */
+    font-style: italic;
+    /* làm giảm độ tỏ của chưx */
+    opacity: 0.6;
+}
+#content .about-text {
+    font-size: 15px;
+    margin-top: 25px;
+    /* căn đều hai bên ko cho thụt ra thụt và   o */
+    text-align: justify;
+    /* dùng để thay đổi độ cao của 1 dòng */
+    line-height: 1.4;
+    
+
+}
+#content .member-list {
+    margin-top: 48px;
+}
+#content .member-item {
+    float: left;
+    /* vì có 3 bức ảnh nên phải lấy 100chia
+    hoặc dùng hàm để chia 3 */
+    /* width: 33.33333%; */
+    width: calc(100/3);
+    text-align: center;
+
+}
+#content .member-name {
+    font-size: 15px;
+    padding: 15px 0 15px 0;
+}
+#content .member-img {
+    width: 60%;
+    border-radius: 4px;
+}
+.Tour-section {
+    background-color: #000;
+}
+
+.tickets-list {
+    background-color: #fff;
+    margin-top: 40px;
+    color: #757575;
+    list-style: none;
+}
+.tickets-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+.tickets-list .quantity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -2px;
+}
+.place-list {
+    /* cách 1 
+    padding-top: 34px;
+    margin-left: -8px;
+    margin-right: -8px;
+    cách 2 
+    trên phải trái dươi
+    */
+    margin: 32px -8px 48px;
+    /* hoặc bỏ lên margin: ; bên trên */
+    /* padding-bottom: 48px; */
+}
+.place-item {
+    width: 33.33333%;
+    float: left;
+    padding: 0 8px;
+}
+
+.place-img {
+    width: 100%;
+    /* mặc định của nó là inline phải chuyển
+    qua block để mất dâu gạch đen */
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body {
+    padding: 16px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.place-heading {
+    font-size: 15px;
+}
+
+.place-time {
+    opacity: 0.67;
+    margin-top: 15px;
+}
+
+.place-desc {
+    line-height: 1.5;
+    margin-top: 15px;
+
+}
+
+.place-buy-btn {
+    color: #fff;
+    background-color: #000;
+    /* xóa dấu gạch chân */
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+
+}
+.place-buy-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+#footer {
+
+}
+
+.modal {
+    /* dùng để chèn nên lớp phủ lên đè lên nền của background: ; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none   ;
+}
+.modal.open {
+    display: flex;
+}
+
+.modal-container {
+    background: #fff;
+    width: 900px;
+    /* 32px là lấy ở hai bên mỗi bên 16px cộng lại */
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn ease .3s;
+    
+}
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font: 24px;
+    padding:12px;
+    text-align: center;
+    /* tạo thêm khi di chuột vào sẽ thay đổi hình thái của chuột */
+    cursor: pointer;
+}
+.modal-close:hover {
+    color: #000;
+    background-color: #ccc;
+}
+.modal-header {
+    height: 130px;
+    background-color: #009688;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+.modal-heading-icon {
+    margin-right: 16px;
+}
+
+.modal-body {
+    padding: 16px;
+}
+.modal-label {
+    /* tính chất của display: block; là ko nằm trên cùng 1 hàng */
+    display: block;
+    line-height: 1.5;
+    margin-bottom: 11px;
+}
+.modal-input {
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 24px;
+}
+#buy-tickets {
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    background-color: #009688;
+    border: none;
+    
+}
+#buy-tickets:hover {
+    color: #000;
+    background-color: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.modal-footer {
+    padding: 16px;
+    /* chuyển 1 chữ qua bên phải góc màn dùng */
+    text-align: right;
+    
+}
+.modal-footer .modal-help {
+    color: #2196f3; 
+}
+/* được hiểu là tạo ra các hình hoạt họa chuyển động */
+@keyframes modalFadeIn {
+    /* từ đâu */
+    from {
+        transform: translateY(-200px);
+    }
+    /* đến đâu */
+    to {
+        transform: translateY(0);
+    }
+}
+

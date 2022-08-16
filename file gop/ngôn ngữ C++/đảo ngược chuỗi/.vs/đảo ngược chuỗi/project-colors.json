@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3600a00d-e83d-4bef-a56c-9228e89a8c4f": {
+      "ProjectGuid": "3600a00d-e83d-4bef-a56c-9228e89a8c4f",
+      "DisplayName": "đảo ngược chuỗi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

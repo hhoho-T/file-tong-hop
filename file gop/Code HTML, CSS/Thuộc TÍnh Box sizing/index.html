@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thuộc tính Box sizing</title>
+    <style>
+        html, body{
+            margin: 0;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            color: aquamarine;
+            background-color: rgb(15, 17, 17);
+            
+            padding: 16px;
+            border: 2px solid rgb(114, 28, 28);
+            /* box-sizing no sẽ tính toán bù trừ sao cho cân bằng  */
+            /* nếu pading va margin lớn quá so vói width và height thì sẽ bị lệch  */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Đây là nội dung bài viết
+    </div>
+    
+</body>
+</html>

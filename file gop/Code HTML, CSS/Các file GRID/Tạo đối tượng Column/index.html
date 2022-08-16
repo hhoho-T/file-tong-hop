@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      /* .col {
+        text-align: center;
+        background-color: #ccc;
+        background-clip: content-box;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      } */
+      body {
+        margin: 0;
+      }
+      .container {
+        text-align: center
+      }
+      .course-item {
+        background-color: orange;
+        height: 260px;
+      }
+      h1 { 
+        color: #fff;
+        line-height: 260px;
+      }
+      @media (max-width: 1023px) {
+        .course-item {
+            margin-top: 16px;
+        }
+      }
+
+      .category {
+        background-color: green;
+        height: 260px;
+      }
+      
+    </style>
+  </head>
+
+  <!-- Column: .col
+  Prefix class :
+    - c - mobile
+    - m - tablet
+    - l - PC -->
+  <body>
+    <div class="grid wide container">
+        <div class="row">
+            <!-- muốn hiển thị là 4 cột thì lấy tổng số cột là 12 chia cho 4 đc 3 nên ta dùng l-3 cả tablet và mobile đều cũng thế-->
+            <!-- <div class="col l-3 m-6 c-12">
+                <div class="course-item">
+                    <h1>Coursr 1</h1>
+                </div>
+            </div>
+            <div class="col l-3 m-6 c-12">
+                <div class="course-item">
+                    <h1>Coursr 2</h1>
+                </div>
+            </div>
+            <div class="col l-3 m-6 c-12">
+                <div class="course-item">
+                    <h1>Coursr 3</h1>
+                </div>
+            </div>
+            <div class="col l-3 m-6 c-12">
+                <div class="course-item">
+                    <h1>Coursr 4</h1>
+                </div>
+            </div> -->
+            <div class="col l-3 m-0 c-0">
+                <div class="category">
+                    <ul>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- dùng cho mobile và tablet -->
+            <div class="col l-9 m-12 m-12">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course-item">
+                            <h1>Coursr 1a</h1>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course-item">
+                            <h1>Coursr 2</h1>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course-item">
+                            <h1>Coursr 3</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: orange;
+    height: 100px;
+
+    /* cách 1 */
+    /* dùng để căn giữa cho chữ và nếu có nhiều thẻ thì bỏ text-align: ; lên class box cũng được */
+    /* text-align: center; */
+    /* dùng line-height: ; căn khoảng cách chiều cao */
+    /* line-height: 100px; */
+
+    /* cách2 */
+    /* display: flex; */
+
+    /* cách 3 */
+    /* align-items: center;
+    justify-content: center; */
+
+    /* cách 4 */
+    /* position: relative; */
+    display: flex;
+}
+h3{
+    margin: auto;
+    position: relative;
+    /* /cách2 */
+    /* margin: auto; */
+    /* có thể bỏ các thuộc tính line-height: ; và text-align: ; ở đây hoặc  */
+
+    /* cách 4 */
+    /* position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); */
+    /* border-left: 3px solid #333;
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px; */ 
+}
+h3::after{
+    position: absolute;
+    left: -10px;
+    content: "";
+    border-left: 3px solid #333;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}

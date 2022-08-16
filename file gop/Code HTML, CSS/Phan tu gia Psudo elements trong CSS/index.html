@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phần tử giả</title>
+    <style>
+        .box{
+            width: 100%;
+            height: 120px;
+            background: rebeccapurple;
+        }
+        .box::before{
+            /* content giúp elements giả có thể tồn tại đc  */
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+        }
+        .box::after{
+            /* content giúp elements giả có thể tồn tại đc  */
+            content: "Xin chào các bạn";
+            color: aqua;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+        }
+        h1::first-letter{
+            /* lấy chữ cái đầu tiên để thay đổi chúng */
+            font-size: 50px;
+            color: blue;
+        }
+        h2::first-line{
+            /* Lấy dòng đầu tiên để thay đổi  */
+            font-size: 60px;
+            color: aquamarine;
+        }
+        h3::selection{
+            /* dùng để lựa chọn khi bôi đen sẽ chuyển màul */
+            background-color: violet;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <h1>Pseudo elements trong CSS <br> Dòng thứ 2</h1>
+    <h2>Pseudo elements trong CSS <br> Dòng thứ 2</h2>
+    <h3>Pseudo elements trong CSS <br> Dòng thứ 2</h3>
+
+
+    <ul>
+        <li>:: before</li>
+        <li>:: after</li>
+        <li>:: first-letter</li>
+        <li>:: first-line</li>
+        <li>:: selection</li>
+    </ul>
+</body>
+</html>

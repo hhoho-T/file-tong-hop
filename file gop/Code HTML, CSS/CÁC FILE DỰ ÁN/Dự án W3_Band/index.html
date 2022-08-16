@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band MTP</title>
+    <link rel="icon" href="./assets/img/hehe.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- bắt buộc thằng viết sau phải đi sau thằng viết trước -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: nav -->
+            <ul id="nav">
+                <!-- đặt tên id cho các lớp của các thẻ rồi gán vao đây 
+                để khi nào bấm vào sẽ chuyển qua chỗ đó luôn -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <!-- dùng thẻ i để chứ thẻ icon -->
+                        <!-- thẻ i cx là thẻ viết chữ in nghiêng -->
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- End: nav -->
+
+
+            <!-- Menu-moble botton -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+            <!--Search button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            
+           
+
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <div class="text-descripti">The atmosphere in New York is lorem ipsum.</div>
+            </div>            
+        </div>
+
+        <div id="content">
+            <!-- About selection -->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">THE BAND MTP</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="row member-list">
+                    <div class="s-col-full mt-32 col col-third text-align">
+                        <p class="member-name">Nguyễn Thanh Tùng(MTP)</p>
+                        <img src="./assets/img/tieu_su_son_tung_m_tp.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="s-col-full mt-32 col col-third text-align">
+                        <p class="member-name">Nguyễn Đức Cường(Đen Vâu)</p>
+                        <img src="./assets/img/Đen.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="s-col-full mt-32 col col-third text-align">
+                        <p class="member-name">Monkey D. Luffy(Mũ Rơm)</p>
+                        <img src="./assets/img/luffy.jpg" alt="Name" class="member-img">
+                    </div>
+                    <!-- tạo thêm classs để dùng gán 3 cái lại 1 cái thẻ cha -->
+                    <div class="clear"></div>
+                </div>
+            </div>  
+            <!-- copy lại để dùng cùng với thẻ bên trên -->
+            <!-- Tour selection -->
+     
+            <div id="tour" class="Tour-section">
+                <div class="content-section">
+                    <!-- thêm text-white đc tạo bên css để tạo font chữ màu trắng -->
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <!-- phần ticket -->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <!-- place địa điểm -->
+                    <!-- thêm 1 thẻ class đc tạo bên trên để làm ngắn hơn -->
+                    <div class="row place-list">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/sanfran.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">190 quốc gia ab c</h3>
+                                <p class="place-time">Fri 28 Aug 2022</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- Tạo class mới để gán vào javaspcrit -->
+                                <button class="btn s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/newyork.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Việt Nam</h3>
+                                <p class="place-time">Tuesday, 21 nov 2022</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- Tạo class mới để gán vào javaspcrit -->
+                                <button class="btn s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/paris.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Japanese</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- Tạo class mới để gán vào javaspcrit -->
+                                <button class="btn s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <!-- dùng để sửa lỗi cho thẻ float left -->
+                        <div class="clear"></div>
+                    </div>
+                </div>  
+            </div>
+        <!-- hãy chú Ý PHÂN TÍCH CÁI NÀO GIỐNG NHAU THÌ
+        DÙNG LẠI NHỮNG THỨ MÌNH VỪA TẠO -->
+        <!-- begin CONTACT selection -->
+        <!-- style="margin-bottom: 500px;"dùng để tạo thêm khoảng trống bên dưới -->
+        <div id="contact" class="content-section">
+            <h2 class="section-heading">CONTACT</h2>
+            <p class="section-sub-heading">Fan? Drop a note!</p>
+
+            <div class="row contact-content">
+                <div class="col col-half s-col-full contact-info">
+                    <p><i class="ti-location-pin"></i>Việt Nam, VN</p>
+                    <p><i class="ti-mobile"></i>Phone: <a href="tel:+84964036226">+84964036226</a></p>
+                    <p><i class="ti-email"></i>Email: <a href="mailto:sutday009@mail.com">sutday009@mail.com</a></p>
+                </div>
+                <div class="col col-half s-col-full contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half s-col-full">
+                                <!-- dùng required để có thể bấm SEND ko bị gửi luôn khi thiếu thông tin -->
+                                <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                            </div>
+                            <div class="col col-half s-col-full s-mt-8">
+                                <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <!-- chỉ có 1 thẻ input thôi nên chỉ cần col-full -->
+                            <div class="col col-full">
+                                <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                            </div>
+                        </div>
+                         <!-- sumbit là tạo ra 1 cái nút bấm -->
+                         <input class="contact-sumbit-btn1 btn1 mt-16 pull-right s-full-width" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>  
+        <!-- end CONTACT selection -->
+        <!-- vẫn đang ở bên trong class content -->
+        <div class="map-section">
+            <img src="./assets/img/map.jpg" alt="Map">
+        </div>
+        </div>
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-apple"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+                
+            </div>
+            <p class="copyright">Powered by <a href="">w3.css</a></p>
+        </div>
+    </div>
+
+    <script>
+        // ĐÓNG MỞ MOBILE MENU
+
+        // getElementById nó dùng để đi lấy id của tk header
+        var header = document.getElementById('header');
+        // thử in biến bạn vừa gán vào thằng header
+        // console.log(header);
+        var mobileMenu = document.getElementById('mobile-menu');
+        // kiểm tra sau khi gán
+        // console.log(mobileMenu);    
+        // tạo 1 hàm để dùng nút 
+
+        // tạo hàm 
+        var headerHeight = header.clientHeight;
+        mobileMenu.onclick = function() {
+            // hàm xuất ra màn hình
+            // alert('Thông BÁo');
+            // dùng hàm bên dưới để thử xem khi ở độ dài bao nhiêu thì đóng bao nhiêu thì mở
+            // console.log(header.clientHeight)
+
+            // dài = 46 là mở
+            // cách 1 lấy giá trị bên thẻ header
+            // var isClosed = header.clientHeight === 46;
+
+            // cách 2 tạo 1 hàm bên trên để lúc nào nó cũng theo chiều dài bên thẻ header mà k phải ckeck
+            var isClosed = header.clientHeight === headerHeight;
+            if(isClosed) {
+                // nếu đang đóng mà bấm vào thì chuyển hight qua tự động
+                header.style.height = 'auto';
+            } else {
+                // câu lệnh ẩn
+                header.style.height = null;
+
+            }
+        }
+        // TỰ ĐỘNG TẮT KHI NHẤN VÀO CÁC MENU
+        // '#nav li a[href*="#"]' nó lấy tất cả các thẻ có href và có dấu # bên trong
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(var i = 0; i < menuItems.length; i++) {
+            // lấy ra từng thằng trong ds 
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function(event) {
+                // nextElementSibling nó sẽ kiểm tra ở vị trí tiếp theo có cái thẻ nào khác giống nó ko
+            // tạo 1 biến gán cho nó phải có chị em liền kề
+            // và nó sẽ kiểm tra nếu 2 cái bên dưới mà đúng thì sẽ lưu vào isParentMenu là dúng
+            // còn nếu 1 trong 2 sai thì biến isParentMenu sẽ sai
+            // menuItem.nextElementSibling và nó truy cập vào classList kiểm tra 1 class có tồn tại
+            // trong đó hay ko và viết vào tên class muốn kiểm tra và nếu nó kiểm tra có thì sẽ biết đc tk isParentMenu là menu cha
+            // this ở đây được hiểu là khi click vào menuItem nào đó là 1 thẻ a thì this sẽ trả về đúng thẻ a đó
+            var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                // câu lệnh ẩn MENU 
+                if(isParentMenu) {
+                    // sai sẽ chạy trong này
+                    // nó sẽ bỏ qua cái mặc định nhấn vào more sẽ chuyển về ban đầu
+                    event.preventDefault();
+                } else {
+                    // đúng sẽ chạy trong này
+                header.style.height = null;
+                }
+            }
+        }
+    </script>
+
+
+
+
+
+    <div class="modal js-madal">
+        
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class="modal-heading-icon ti-bag"></i>
+                Tickets
+            </header>
+            <div class="modal-body">
+                <!-- for dùng để khi nhấn vào chữ 
+                Tickets, $15 per person thì sẽ chuyển xg dòng nhập luôn -->
+            <label for="how-many" class="modal-label">
+                <i class="ti-shopping-cart"></i>
+                Tickets, $15 per person
+            </label>
+            <input id="how-many" type="text" class="modal-input" placeholder="How many?">
+
+            <label for="email" class="modal-label">
+                <i class="ti-user"></i>
+                Send to
+            </label>
+            <input id="email" type="email" class="modal-input" placeholder="Enter email">
+            <!-- chỉ đặt đc 1 lần cho giao diện để hiện ra id -->
+            <button id="buy-tickets">
+                PAY <i class="ti-check"></i>
+            </button>
+        </div>
+            <footer class="modal-footer">
+                Need <a href="" class="modal-help">help?</a></p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        // buyBtns là đc gọi biến document là thằng đại diện 1 trang web nên muốn lấy 1 thứ gì từ trang web
+        // phải đi qua document, còn querySelectorAll() là lấy tất cả thứ gì trùng với tên class truyền vào đây
+        const buyBtns = document.querySelectorAll('.btn')
+
+        // NẾU LÀ ID THÌ DÙNG DẤU '/'  CÒN NẾU LAD CLASS THÌ DÙNG '.'
+        // bây giờ lấy ra 1 biến modal ko lấy tất cả 
+        const modal = document.querySelector('.js-madal')
+
+        // và viết xong phải test xem có lỗi ko dùng modalClose để kt
+        const modalClose = document.querySelector('.js-modal-close')
+
+        // tạo thêm hàm để khi bấm nhập ko bị thoát ra luôn
+        const Container = document.querySelector('.js-modal-container')
+
+
+        // tạo 1 hàm để nhận hiệu lệnh
+        // hàm add là thêm và mở lên
+        function showBuytickets() {
+            // hàm tự có trên trình duyệt click vào sẽ xuất hiện phải theo câu lệnh
+            modal.classList.add('open')
+        }
+
+        // hàm remove là tắt đi
+        function closeBuytickets() {
+            // hàm tự có trên trình duyệt click vào sẽ xuất hiện phải theo câu lệnh
+            modal.classList.remove('open')
+        }
+
+        // tạo ra 1 biến mới và đc cho vào vòng lặp for và nó đc chạy 3 lần 
+        // bởi nó có 3 cái nút lần thứ nhất lấy nút thứ nhất ở buyBtns và lưu vào
+        // buyBtn nó chạy cho đến khi lưu hết nút
+        for(const buyBtn of buyBtns) {
+            // buyBtn.addEventListener là tạo thêm 1 thằng để lắng nghe và biết đc sẽ truyền hiệu lệnh đến nơi cần
+            buyBtn.addEventListener('click', showBuytickets)
+        }
+
+        // closeBuytickets hàm này đc truyền từ hàm tạo bên trên
+        modalClose.addEventListener('click', closeBuytickets)
+        modal.addEventListener('click', closeBuytickets)
+        // Tạo 1 hàm mới bên trrong và ko cần đặt tên cho nó và phải tạo biến
+        Container.addEventListener('click', function (event) {
+            // câu lệnh này nó sẽ ngừng tự động việc đóng tap đang nhập lại
+            event.stopPropagation()
+
+        })
+    </script>
+    
+</body>
+</html>

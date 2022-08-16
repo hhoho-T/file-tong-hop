@@ -1,0 +1,5 @@
+﻿  đảo ngược chuỗi.cpp
+C:\ngôn ngữ C++\đảo ngược chuỗi\đảo ngược chuỗi\đảo ngược chuỗi.cpp(9,13): error C2228: left of '.begin' must have class/struct/union
+C:\ngôn ngữ C++\đảo ngược chuỗi\đảo ngược chuỗi\đảo ngược chuỗi.cpp(9,13): message : type is 'char'
+C:\ngôn ngữ C++\đảo ngược chuỗi\đảo ngược chuỗi\đảo ngược chuỗi.cpp(9,25): error C2660: 'Reverse': function does not take 1 arguments
+C:\ngôn ngữ C++\đảo ngược chuỗi\đảo ngược chuỗi\đảo ngược chuỗi.cpp(5,6): message : see declaration of 'Reverse'

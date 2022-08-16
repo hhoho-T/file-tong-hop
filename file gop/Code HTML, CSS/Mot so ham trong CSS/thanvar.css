@@ -1,0 +1,15 @@
+:root{
+    --heading-color: rgb(73, 223, 73);
+    --text-color: rgb(191, 100, 100);
+}
+#heading{
+    color: var(--heading-color);
+}
+.master{
+    color: var(--text-color);
+}
+.box2{
+    width: 20%;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
